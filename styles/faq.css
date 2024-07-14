@@ -1,0 +1,119 @@
+.faq-section{
+  background: repeating-linear-gradient(#4766bd25, #f9f9f9);
+  display: flex;
+  justify-content: center;
+}
+.faq-div p{
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.faq-div{
+  max-width: 1400px;
+  padding: 25px;
+}
+
+@media screen and (max-width: 554px){
+  .faq-div h2{
+    color: #151542;
+    font-size: 1.7em;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  .faq-item{
+    margin-bottom: 25px;
+  }
+  .faq-question{
+    background-color: #2b1da1cc;
+    color: #fff;
+    padding: 15px 10px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  .faq-answer{
+    display: none;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    border-left: 4px solid #2b1da1cc;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.2);
+  }
+}
+@media screen and (min-width: 555px) and (max-width: 769px){
+  .faq-div h2{
+    color: #151542;
+    font-size: 1.8em;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  .faq-item{
+    margin-bottom: 25px;
+  }
+  .faq-question{
+    background-color: #2b1da1cc;
+    color: #fff;
+    padding: 15px 10px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  .faq-answer{
+    display: none;
+    border-radius: 10px;
+    padding: 17px;
+    background: #f9f9f9;
+    border-left: 4px solid #2b1da1cc;
+    max-width: 430px;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.2);
+  }
+}
+@media screen and (min-width: 770px){
+  .faq-div h2{
+    color: #151542;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 15px;
+  }
+  .faq-item{
+    margin-bottom: 25px;
+  }
+  .faq-question{
+    background-color: #2b1da1cc;
+    color: #fff;
+    padding: 15px 10px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 22px;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  .faq-answer{
+    display: none;
+    border-radius: 10px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-left: 4px solid #2b1da1cc;
+    max-width: 470px;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.2);
+  }
+}

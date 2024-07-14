@@ -1,0 +1,100 @@
+body{
+  padding-top: 45px;
+}
+.btn-div{
+  display: flex;
+  justify-content: center;
+}
+ul{
+  list-style-type: none;
+}
+h1{
+  margin-top: 10px;
+  color: #151542;
+}
+
+.pricing-section{
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-section h1{
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  text-align: center;
+  font-style: italic;
+}
+.pricing-section{
+  padding: 0 20px;
+  background: repeating-linear-gradient(#f9f9f9, #4766bd25, #f9f9f9);
+}
+.pricing-keywords{
+  margin-top: 20px;
+   margin-bottom: 20px;
+}
+ p{
+  margin-bottom: 30px;
+  line-height: 24px;
+  font-size: 1.2em;
+}
+.pricing-keywords strong{
+  font-size: 1.3em;
+}
+.pricing-card h2{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.pricing-card i{
+  color: #151542;
+  font-size: 1.8em;
+  margin-right: 20px;
+}
+
+.pricing-card ul{
+  font-size: 20px;
+}
+.pricing-card li{
+  margin-bottom: 10px;
+}
+.btn{
+  margin:  20px 0px ;
+  font-size: 1.2em;
+  padding: 10px 12px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #2b1da1cc;
+  color: white;
+
+}
+.btn:hover{
+  transform: scale(1.1);
+}
+.add-on-div{
+  margin-top: 20px;
+}
+.add-on-div li{
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 555px) and (max-width: 769px){
+  .pricing-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 770px){
+  .pricing-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .pricing-div{
+    display: flex;
+    justify-content: center;
+  }
+  .pricing-section p{
+    font-size: 21px;
+  }
+}

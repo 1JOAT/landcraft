@@ -1,0 +1,129 @@
+@media screen and (max-width: 554px){
+  .why-online-presence{
+    padding: 20px;
+  }
+  .why-online-div{
+      display: flex;
+      justify-content: center;
+      background: repeating-linear-gradient( #f9f9f9, #4766bd25);
+  }
+  .why-online-presence h2{
+    text-align: center;
+    font-style: italic;
+    color: #151542;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+  }
+  .why-online-presence h3{
+    margin: 20px 0px;
+    font-size: 1.6em;
+  }
+  .why-online-presence p{
+    line-height: 23px;
+  }
+  .why-online-presence .reason{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    margin-bottom: 30px;
+  }
+  .online-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .online-icon i{
+    font-size: 2em;
+  }
+  .why-online-presence  hr{
+    width: 100%;
+    background-color: #2b1da1cc;
+  }
+}
+@media screen and (min-width: 555px ) and (max-width: 769px){
+  .why-online-presence{
+    padding: 20px;
+  }
+  .why-online-div{
+      display: flex;
+      justify-content: center;
+      background: repeating-linear-gradient( #f9f9f9, #4766bd25);
+  }
+  .why-online-presence h2{
+    text-align: center;
+    font-style: italic;
+    color: #151542;
+    font-size: 2em;
+    margin-bottom: 35px;
+  }
+  .why-online-presence h3{
+    margin: 25px 0px;
+    font-size: 1.8em;
+  }
+  .why-online-presence p{
+    line-height: 25px;
+  }
+  .why-online-presence .reason{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin-bottom: 35px;
+  }
+  .online-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .online-icon i{
+    font-size: 2.5em;
+  }
+  .why-online-presence  hr{
+    width: 100%;
+    background-color: #2b1da1cc;
+  }
+}
+@media screen and (min-width: 770px){
+  .why-online-presence{
+    padding: 25px;
+  }
+  .why-online-div{
+      display: flex;
+      justify-content: center;
+      background: repeating-linear-gradient( #f9f9f9, #4766bd25);
+  }
+  .why-online-presence h2{
+    text-align: center;
+    font-style: italic;
+    color: #151542;
+    font-size: 2.2em;
+    margin-bottom: 40px;
+  }
+  .why-online-presence h3{
+    margin: 30px 0px;
+    font-size: 1.8em;
+  }
+  .why-online-presence p{
+    line-height: 27px;
+    font-size: 21px;
+  }
+  .why-online-presence .reason{
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    margin-bottom: 50px;
+  }
+  .online-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .online-icon i{
+    font-size: 2em;
+  }
+  .why-online-presence  hr{
+    width: 100%;
+    background-color: #2b1da1cc;
+  }
+}
+.wod{
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+}

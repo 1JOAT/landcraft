@@ -1,0 +1,349 @@
+@media screen and (max-width: 290px){
+    .hero-section{
+        background-image: url(../Images/hero.png);
+        height: 350px;
+        background-size: auto;
+        background-repeat: no-repeat;
+        margin-top: 40px;
+        padding-top: 10px;
+        z-index: -2;
+    }
+    .hero-section img{
+        display: none;
+    }
+    .hero-section p{
+       padding: 0px 7px;
+       margin-top: 20px;
+       font-size: larger;
+       font-weight: bold;
+       color: #151542;
+       text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    }
+    .hero-section h1{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: xx-large ;
+        color: #151542;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.35);
+    }
+    @keyframes buttonAnim{
+        0% {transform: scale(1);}
+        50% {transform: scale(1.05);}
+        100%{transform: scale(1);}
+    }
+    .hero-section button{
+        display: inline-block;
+        font-size: 1.1em;
+        color: #ffffff;
+        padding: 10px 20px;
+        background-color: #2b1da1cc;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 25px;
+        transition: background-color 0.25s ease, transform 0.3s;
+        animation: buttonAnim 3s infinite;
+    }
+    .hero-section button:hover{
+        color: #2b1da1cc;
+        background-color: #c8d1ec;
+        transform: scale(1.05);
+    }
+    #toggle-btn{
+        display: none;
+    }
+}
+@media screen and (min-width: 291px) and (max-width: 552px){
+    .hero-section{
+        background-image: url(../Images/hero.png);
+        height: 290px;
+        background-size: auto;
+        background-repeat: no-repeat;
+        margin-top: 40px;
+        padding-top: 18px;
+        z-index: -2;
+    }
+    .hero-section img{
+        display: none;
+    }
+    .hero-section p{
+       padding: 0px 7px;
+       margin-top: 20px;
+       font-size: larger;
+       font-weight: bold;
+       color: #151542;
+       text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    }
+    .hero-section h1{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: xx-large ;
+        color: #151542;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.35);
+    }
+    @keyframes buttonAnim{
+        0% {transform: scale(1);}
+        50% {transform: scale(1.05);}
+        100%{transform: scale(1);}
+    }
+    .hero-section button{
+        display: inline-block;
+        font-size: 1.1em;
+        color: #ffffff;
+        padding: 10px 20px;
+        background-color: #2b1da1cc;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 25px;
+        transition: background-color 0.25s ease, transform 0.3s;
+        animation: buttonAnim 3s infinite;
+    }
+    .hero-section button:hover{
+        color: #2b1da1cc;
+        background-color: #c8d1ec;
+        transform: scale(1.05);
+    }
+    #toggle-btn{
+        display: none;
+    }
+}
+@media screen and (min-width: 552px) and (max-width: 769px ){
+    .hero-section{
+        margin-top: 40px;
+        padding:  15px 15px;
+        background: repeating-linear-gradient(#4766bd25, #f9f9f9);
+    }
+    .hero-section img{
+       width: 275px;
+       border-bottom-left-radius: 50px;
+       border-top-left-radius: 80px;
+       border-top-right-radius: 50px;
+    }
+    .hero-image-div{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    .hero-div{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .hero-section h1{
+        color: #151542;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.35);
+        font-size: xx-large;
+    }
+    .hero-section p{
+        color: #151542;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        font-size: 1.2em;
+        margin-top: 20px;
+    }
+    #toggle-btn{
+        position: absolute;
+        bottom: -15px;
+        right: 0;
+        background-color: #2b1da1cc;
+        cursor: pointer;
+        color: white;
+        font-size: 0.7em;
+        padding: 5px 10px;
+        border-radius: 50px;
+        border: none;
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    @keyframes buttonAnim{
+        0% {transform: scale(1);}
+        50% {transform: scale(1.05);}
+        100%{transform: scale(1);}
+    }
+    .cta-button{
+        display: inline-block;
+        font-size: 1.1em;
+        color: #ffffff;
+        padding: 10px 20px;
+        background-color: #2b1da1cc;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 25px;
+        transition: background-color 0.25s ease, transform 0.3s;
+        animation: buttonAnim 3s infinite;
+    }
+    .cta-button:hover{
+        color: #2b1da1cc;
+        background-color: #c8d1ec;
+        transform: scale(1.05);
+    }
+ 
+}
+@media screen and (min-width: 770px) and (max-width:1129px){
+    .hero-section{
+        margin-top: 40px;
+        
+        padding-top: 20px;
+        padding-bottom: 35px;
+        background: repeating-linear-gradient(#4766bd25, #f9f9f9);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+   .hero-section  ul{
+        display: none;
+    }
+    .hero-section img{
+        width: 300px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 40px;
+    }
+    .hero-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 30px;
+        position: relative;
+    }
+    .hero-image-div{
+        display: grid;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .hero-section h1{
+        font-size: 45px;
+        color: #151542;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.35);
+    }
+    .hero-section p {
+        font-size: 25px;
+        color: #151542;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #toggle-btn{
+        position: absolute;
+        bottom: -15px;
+        right: 10px;
+        background-color: #2b1da1cc;
+        cursor: pointer;
+        color: white;
+        font-size: 0.7em;
+        padding: 5px 10px;
+        border-radius: 50px;
+        border: none;
+        width: 50px;
+    }
+    @keyframes buttonAnim{
+        0% {transform: scale(1);}
+        50% {transform: scale(1.05);}
+        100%{transform: scale(1);}
+    }
+    .cta-button{
+        display: inline-block;
+        font-size: 1.6em;
+        color: #ffffff;
+        padding: 10px 20px;
+        background-color: #2b1da1cc;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 25px;
+        transition: background-color 0.25s ease, transform 0.3s;
+        animation: buttonAnim 3s infinite;
+    }
+    .cta-button:hover{
+        color: #2b1da1cc;
+        background-color: #c8d1ec;
+        transform: scale(1.05);
+    }
+}
+@media screen and (min-width: 1130px){
+    .hero-section{
+        margin-top: 42px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+        background: repeating-linear-gradient(#4766bd25, #f9f9f9);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hero-section ul{
+        display: none;
+    }
+    .hero-section img{
+        border-radius: 80px;
+    }
+    .hero-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 30px;
+        position: relative;
+    }
+    .hero-image-div{
+        display: grid;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .hero-section h1{
+        font-size: 45px;
+        color: #151542;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.35);
+    }
+    .hero-section p {
+        font-size: 25px;
+        color: #151542;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #toggle-btn{
+        position: absolute;
+        bottom: -15px;
+        right: 0;
+        background-color: #2b1da1cc;
+        cursor: pointer;
+        color: white;
+        font-size: 0.7em;
+        padding: 5px 10px;
+        border-radius: 50px;
+        border: none;
+        width: 50px;
+    }
+    @keyframes buttonAnim{
+        0% {transform: scale(1);}
+        50% {transform: scale(1.05);}
+        100%{transform: scale(1);}
+    }
+    .cta-button{
+        display: inline-block;
+        font-size: 1.6em;
+        color: #ffffff;
+        padding: 10px 20px;
+        background-color: #2b1da1cc;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 25px;
+        transition: background-color 0.25s ease, transform 0.3s;
+        animation: buttonAnim 3s infinite;
+    }
+    .cta-button:hover{
+        color: #2b1da1cc;
+        background-color: #c8d1ec;
+        transform: scale(1.05);
+    }
+}
+
+
+

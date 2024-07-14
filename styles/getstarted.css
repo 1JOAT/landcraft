@@ -1,0 +1,373 @@
+@media screen and (max-width: 431px){
+  .form-section{
+    display: flex;
+    justify-content: center;
+    background: repeating-linear-gradient(#4766bd25, #f9f9f9);
+  }
+  .get-started-section{
+    padding: 20px 15px ;
+    background: repeating-linear-gradient(#f9f9f9,#4766bd25);
+  }
+  .get-started-section h1{
+    color: #1d1562cc;
+    font-size: 27px;
+    font-style: italic;
+    margin: 15px 0px;
+    padding-top: 20px;
+  }
+  .get-started-section p{
+    font-size: 20px;
+  }
+  .form-section h2{
+    color: #1d1562cc;
+    font-style: italic;
+    font-size: 23px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  #get-started-form{
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    padding: 20px;
+    box-shadow:inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  #name, #email{
+    padding: 10px;
+     border-radius: 5px;
+     width: 110px;
+     margin-bottom: 20px;
+     border: none;
+  }
+  #name:focus, #email:focus{
+    outline: none;
+  }
+  
+  .form-section label{
+    font-size: 20px;
+  }
+  .name-div{
+    display: flex;
+    justify-content: space-between;
+  }
+  .servicelabel{
+    text-align: center;
+    margin-bottom: 17px;
+  }
+  .servicelabel label{
+    font-size: 25px;
+    font-style: italic;
+    color: #1d1562cc;
+    font-weight: 700;
+  }
+  .form-section .service-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .form-section h3{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-section .plan-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+  }
+  .form-section .plan-div div{
+    margin-bottom: 5px;
+  }
+  .form-section textarea{
+    overflow: hidden;
+    resize: none;
+    height: 150px;
+    width: 180px;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+  }
+  .form-section textarea:focus{
+    outline: none;
+  }
+  .domain-div{
+    margin-top: 5px;
+  }
+  .form-section button{
+    padding: 15px 40px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 30px;
+    color: #f9f9f9;
+    background-color: #2b1da1cc;
+    cursor: pointer;
+  
+  }
+  .form-section button:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  .form-section .btn-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .tellproject{
+    color: #1d1562cc;
+    font-style: italic;
+    font-size: 25px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  
+}
+@media screen and (min-width: 350px) and (max-width:431px){
+  .form-section{
+    display: flex;
+    justify-content: center;
+    background: repeating-linear-gradient(#4766bd25, #f9f9f9);
+  }
+  .get-started-section{
+    padding: 20px 15px ;
+    background: repeating-linear-gradient(#f9f9f9,#4766bd25);
+  }
+  .get-started-section h1{
+    color: #1d1562cc;
+    font-size: 27px;
+    font-style: italic;
+    margin: 15px 0px;
+    padding-top: 20px;
+  }
+  .get-started-section p{
+    font-size: 20px;
+  }
+  .form-section h2{
+    color: #1d1562cc;
+    font-style: italic;
+    font-size: 23px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  #get-started-form{
+    border: none;
+    border-radius: 30px;
+    width: 270px;
+    padding: 30px;
+    box-shadow:inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  #name, #email{
+    padding: 10px;
+     border-radius: 5px;
+     width: 150px;
+     margin-bottom: 20px;
+     border: none;
+     font-size: 17px;
+     margin-top: -10px;
+  }
+  #name:focus, #email:focus{
+    outline: none;
+  }
+  
+  .form-section label{
+    font-size: 20px;
+  }
+  .name-div{
+    display: flex;
+    justify-content: space-between;
+  }
+  .servicelabel{
+    text-align: center;
+    margin-bottom: 17px;
+  }
+  .servicelabel label{
+    font-size: 25px;
+    font-style: italic;
+    color: #1d1562cc;
+    font-weight: 700;
+  }
+  .form-section .service-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .form-section h3{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-section .plan-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+  }
+  .form-section .plan-div div{
+    margin-bottom: 5px;
+  }
+  .form-section textarea{
+    overflow: hidden;
+    resize: none;
+    height: 200px;
+    width: 255px;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+  }
+  .form-section textarea:focus{
+    outline: none;
+  }
+  .domain-div{
+    margin-top: 5px;
+  }
+  .form-section button{
+    padding: 15px 40px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 30px;
+    color: #f9f9f9;
+    background-color: #2b1da1cc;
+    cursor: pointer;
+  
+  }
+  .form-section button:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  .form-section .btn-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .tellproject{
+    color: #1d1562cc;
+    font-style: italic;
+    font-size: 25px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 432px){
+.form-section{
+  display: flex;
+  justify-content: center;
+  background: repeating-linear-gradient(#4766bd25, #f9f9f9);
+}
+.get-started-section{
+  padding: 25px 20px ;
+  background: repeating-linear-gradient(#f9f9f9,#4766bd25);
+}
+.get-started-section h1{
+  color: #1d1562cc;
+  font-size: 27px;
+  font-style: italic;
+  margin: 15px 0px;
+  padding-top: 20px;
+}
+.get-started-section p{
+  font-size: 21px;
+}
+ .tellproject{
+  color: #1d1562cc;
+  font-style: italic;
+  font-size: 25px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#get-started-form{
+  border: none;
+  border-radius: 30px;
+  width: 330px;
+  padding: 30px;
+  box-shadow:inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+#name, #email{
+  padding: 10px;
+   border-radius: 5px;
+   width: 200px;
+   margin-bottom: 20px;
+   border: none;
+}
+#name:focus, #email:focus{
+  outline: none;
+}
+
+.form-section label{
+  font-size: 20px;
+}
+.name-div{
+  display: flex;
+  justify-content: space-between;
+}
+.servicelabel{
+  text-align: center;
+  margin-bottom: 17px;
+}
+.servicelabel label{
+  font-size: 25px;
+  font-style: italic;
+  color: #1d1562cc;
+  font-weight: 700;
+}
+.form-section .service-div{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.form-section h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-section .plan-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+}
+.form-section .plan-div div{
+  margin-bottom: 5px;
+}
+.form-section textarea{
+  overflow: hidden;
+  resize: none;
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  font-size: 19px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+.form-section textarea:focus{
+  outline: none;
+}
+.domain-div{
+  margin-top: 5px;
+}
+.form-section button{
+  padding: 15px 40px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 30px;
+  color: #f9f9f9;
+  background-color: #2b1da1cc;
+  cursor: pointer;
+
+}
+.form-section button:hover{
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+.form-section .btn-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+}
+
+.form-section hr{
+  margin: 5px 0px;
+  width: 100%;
+  color: #1d1562cc;
+}

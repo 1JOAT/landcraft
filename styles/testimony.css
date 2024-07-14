@@ -1,0 +1,116 @@
+@media screen and (max-width: 674px){
+
+
+  .testimony-section{
+    display: flex;
+    justify-content: center;
+    background: repeating-linear-gradient( #f9f9f9, #4766bd25);
+    padding: 25px;
+    line-height: 25px;
+  }
+  .testimony-section h2{
+    font-size: 1.7em;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .testimonials{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 260px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+  }
+  .testimony-section strong {
+    font-style: italic;
+    color: #151542;
+  }
+}
+
+@media screen and (min-width: 675px)and (max-width: 970px){
+  .testimony-section{
+    display: flex;
+    justify-content: center;
+    background: repeating-linear-gradient( #f9f9f9, #4766bd25);
+    padding: 25px;
+    line-height: 25px;
+  }
+  .testimony-section h2{
+    font-size: 1.7em;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .testimony-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .testimonials{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    border-radius: 20px;
+    width: 260px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+  }
+  .testimony-section strong {
+    font-style: italic;
+    color: #151542;
+  }
+}
+@media screen and (min-width: 971px){
+  .testimony-section{
+    display: flex;
+    justify-content: center;
+    background: repeating-linear-gradient( #f9f9f9, #4766bd25);
+    padding: 25px;
+    line-height: 30px;
+  }
+  .testimony-section h2{
+
+
+    color: #151542;
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .testimony-section p{
+    font-size: 21px;
+
+  }
+  .testimony-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+  .testimonials{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    border-radius: 20px;
+    width: 260px;
+    box-shadow: 7px 7px 25px rgba(0,0,0,0.17);
+  }
+  .testimony-section strong {
+    font-style: italic;
+    color: #151542;
+  }
+}
+.cta-align-test {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+.cta-align-test button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #2b1da1cc;
+  color: white;
+}
+.cta-align-test button:hover{
+  transform:  scale(1.1);
+}
