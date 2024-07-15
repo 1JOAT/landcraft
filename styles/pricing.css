@@ -12,7 +12,9 @@ h1{
   margin-top: 10px;
   color: #151542;
 }
-
+.add-on-div ul li{
+   margin-bottom: 20px;
+}
 .pricing-section{
   display: flex;
   justify-content: center;
