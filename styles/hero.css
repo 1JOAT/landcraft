@@ -144,20 +144,7 @@
         font-size: 1.2em;
         margin-top: 20px;
     }
-    #toggle-btn{
-        position: absolute;
-        bottom: -15px;
-        right: 0;
-        background-color: #2b1da1cc;
-        cursor: pointer;
-        color: white;
-        font-size: 0.7em;
-        padding: 5px 10px;
-        border-radius: 50px;
-        border: none;
-        width: 50px;
-        margin-bottom: 10px;
-    }
+   
     @keyframes buttonAnim{
         0% {transform: scale(1);}
         50% {transform: scale(1.05);}
